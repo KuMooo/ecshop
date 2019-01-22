@@ -9,7 +9,7 @@ $db_name   = "ec2";
 $db_user   = "root";
 
 // database password
-$db_pass   = "root";
+$db_pass   = "798460";
 
 // table prefix
 $prefix    = "ecs_";
