@@ -4,7 +4,7 @@
 <form method="post" action="users.php" name="theForm" onsubmit="return validate()">
 <table width="100%" >
   <tr>
-    <td class="label">{$lang.username}:</td>
+    <td class="label">昵称</td>
     <td>{if $form_action eq "update"}{$user.user_name}<input type="hidden" name="username" value="{$user.user_name}" />{else}<input type="text" name="username" maxlength="60" value="{$user.user_name}" />{$lang.require_field}{/if}</td>
   </tr>
   {if $form_action eq "update"}
