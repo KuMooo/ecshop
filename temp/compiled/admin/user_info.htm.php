@@ -3,7 +3,7 @@
 <div class="main-div">
 <form method="post" action="users.php" name="theForm" onsubmit="return validate()">
 <table width="100%" >
-    <tr>
+   <tr>
         <td class="label">昵称:</td>
         <td><?php if ($this->_var['form_action'] == "update"): ?><?php echo $this->_var['user']['nickname']; ?><input type="hidden" name="nickname" value="<?php echo $this->_var['user']['nickname']; ?>" /><?php else: ?><input type="text" name="nickname" maxlength="60" value="<?php echo $this->_var['user']['nick_name']; ?>" /><?php echo $this->_var['lang']['require_field']; ?><?php endif; ?></td>
       </tr>
